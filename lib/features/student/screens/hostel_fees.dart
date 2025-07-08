@@ -15,13 +15,13 @@ class HostelFee extends StatelessWidget {
   String totalCharge;
   HostelFee({
     Key? key,
-    required this.blockNumber,
-    required this.roomNumber,
-    required this.maintenanceCharge,
-    required this.parkingCharge,
-    required this.waterCharge,
-    required this.roomCharge,
-    required this.totalCharge,
+    required this.blockNumber
+    // required this.roomNumber,
+    // required this.maintenanceCharge,
+    // required this.parkingCharge,
+    // required this.waterCharge,
+    // required this.roomCharge,
+    // required this.totalCharge,
   }) : super(key: key);
 
   @override
